@@ -1,4 +1,4 @@
-.home header{
+header{
     background-color: var(--Amarillo);
     padding: 20px 0;
     font-size: var(--CuerposDeTexto);
@@ -18,6 +18,9 @@ header p{
     margin: 20px 0;
     text-align: center;
 }
+header .links{
+    display: none;
+}
 header .links ul{
 margin: 0 0 20px;
 }
@@ -33,3 +36,18 @@ header .burger-menu i{
     padding: 10px;
     border-radius: 6px;
 }
+
+/*tablet*/
+
+@media (min-width: 461px){
+    header .burger-menu{
+       display: none;
+    }
+    header .links{
+        display: block;
+    }
+}
+
+/*desktop*/
+
+@media (min-width: 769px){}

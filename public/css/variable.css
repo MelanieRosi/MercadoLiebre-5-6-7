@@ -16,6 +16,5 @@
         --CuerposDeTexto: 12px;
         --Titulares /*(Basado en tu última visita/Ofertas)*/ : 24px;
         --Precios: 18px;
-        --Descuentos: 16px;
-        --descripciones: 16px
+        --DescuentosYDescripciones: 16px;
 }
